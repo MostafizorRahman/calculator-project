@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    max-width: 435px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightslategrey;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.card{
+    background-color:lightgray;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 470px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: 0.3s;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.calc-head #result{
+    width: 440px;
+    height: 80px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+    outline: 0;
+}
+.calc-body{
+   padding-top:20px;
+    padding-bottom:10px;
+}
+
+.calc-body .btn{
+    width: 102px;
+    height: 58px;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #1f2326;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+    
+}
+
+.calc-body .side-btn{
+    background-color: #5F9EA0;
+}
+.calc-body .btn-orange{
+    background-color: orange;
+}
+.calc-body .btn-red{
+    background-color: red;
+}
+
+.btn:hover{
+    background-color: orchid;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        padding: 1%;
+    }
+
+    h1{
+        max-width: 250px;
+       
+    }
+    .card{
+        max-width: 270px;
+    }
+
+    .calc-head #result{
+        width: 250px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .calc-body .btn{
+    width: 57px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #1f2326;
+    color: white;
+    margin: 2px;
+    }
+    .calc-body .side-btn{
+        background-color: #5F4BB6;
+    }
+    .calc-body .btn-orange{
+        background-color: orange;
+    }
+    .calc-body .btn-red{
+        background-color: red;
+    }
+}
